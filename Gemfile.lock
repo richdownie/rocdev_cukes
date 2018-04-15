@@ -1,0 +1,98 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backports (3.11.2)
+    builder (3.2.3)
+    childprocess (0.9.0)
+      ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.2)
+    concurrent-ruby (1.0.5)
+    cucumber (3.1.0)
+      builder (>= 2.1.2)
+      cucumber-core (~> 3.1.0)
+      cucumber-expressions (~> 5.0.4)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (~> 1.3)
+      gherkin (~> 5.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (3.1.0)
+      backports (>= 3.8.0)
+      cucumber-tag_expressions (~> 1.1.0)
+      gherkin (>= 5.0.0)
+    cucumber-expressions (5.0.17)
+    cucumber-tag_expressions (1.1.1)
+    cucumber-wire (0.0.1)
+    cukehub (1.0.0)
+      httparty (~> 0)
+      os (~> 0)
+    data_magic (1.2)
+      faker (>= 1.1.2)
+      yml_reader (>= 0.6)
+    diff-lcs (1.3)
+    faker (1.8.7)
+      i18n (>= 0.7)
+    ffi (1.9.23)
+    gherkin (5.0.0)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    i18n (1.0.0)
+      concurrent-ruby (~> 1.0)
+    method_source (0.9.0)
+    mini_portile2 (2.3.0)
+    multi_json (1.13.1)
+    multi_test (0.1.2)
+    multi_xml (0.6.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
+    os (0.9.6)
+    page-object (2.2.4)
+      page_navigation (>= 0.10)
+      selenium-webdriver (~> 3.0)
+      watir (~> 6.8)
+    page_navigation (0.10)
+      data_magic (>= 0.22)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.1)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.1)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.11.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.2)
+    thor (0.20.0)
+    watir (6.10.3)
+      selenium-webdriver (~> 3.4, >= 3.4.1)
+    webdrivers (3.2.4)
+      nokogiri (~> 1.6)
+      rubyzip (~> 1.0)
+      selenium-webdriver (~> 3.0)
+    yml_reader (0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cucumber
+  cukehub
+  page-object
+  pry
+  rspec
+  selenium-webdriver
+  thor
+  webdrivers
+
+BUNDLED WITH
+   1.16.1
