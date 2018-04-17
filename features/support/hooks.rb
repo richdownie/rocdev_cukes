@@ -1,3 +1,4 @@
+require 'webdrivers'
 Before do
   @cukehub_api_key = "rfviq96hKK7VzuQLnR985q82"
   @domain = "https://rocdev.org"
