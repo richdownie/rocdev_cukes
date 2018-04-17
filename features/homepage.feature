@@ -15,3 +15,7 @@ Scenario: I verify there are exactly three past events
   And I click the "sign up with Meetup" link
   Then I should be the "/meetup" page
   And I should see exactly three past events
+
+Scenario: I verify each event has a link to meetup.com
+  Given I am on the meetup page
+  Then each event has a unique link to meetup.com
