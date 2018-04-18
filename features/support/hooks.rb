@@ -3,4 +3,5 @@ Before do
   @domain = "https://rocdev.org"
   puts @browser.capabilities.browser_name + " " + @browser.capabilities.version
   @homepage = HomePage.new(@browser)
+  @meetup = Meetup.new(@browser)
 end

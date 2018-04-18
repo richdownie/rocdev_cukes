@@ -1,5 +1,3 @@
-require 'webdrivers'
-
 class HomePage
   include PageObject
 
